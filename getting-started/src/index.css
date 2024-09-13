@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 4rem;
+  gap: 5em;
+  width: 90vw;
+}
+
+.discography {
+  display: flex;
+  flex-direction: column;
+}
+
+.appName {
+  margin: 0;
+  margin-bottom: -3px;
+}
+
+.artistName {
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.artistImage {
+  width: auto;
+  height: 540px;
+}
+
+.albumImage {
+  width: auto;
+  height: 200px;
+}
+
+.albumOne, .albumTwo {
+  display: flex;
+  gap: 1em;
+}
+
+.details {
+  width: 200px;
+  user-select: none;
+}
+
+.albumContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.details summary {
+  border: solid 1px black;
+  padding: 5px;
+  width: 100%;
+}
+
+.tracklist {
+  height: 200px;
+}
